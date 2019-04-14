@@ -20,9 +20,9 @@
     if death_year > 90:
         print(str(name.title()), "seems you want to live forever")
     
-    # 65 - is the common age when Jhon dies according to statistik
+    # 65 - is the common age when Jhon dies according to statistic
     elif death_year <= 65:
-        print ("Is your caharacter going to commit a suicide? Don\'t think so. So please re-enter", name, "age of death")
+        print ("Is your character going to commit a suicide? Don\'t think so. So please re-enter", name, "age of death")
         death_year = input("Please enter character\'s age of death ")
     else:
-        print(str(name.title()), "don\'t be sad, you don't need to beleve a fortune teller \n this is only a joke :)")
+        print(str(name.title()), "don\'t be sad, you don't need to believe a fortune teller \n this is only a joke :)")
